@@ -1,0 +1,24 @@
+body {
+    font-family: system-ui;
+    background:  skyblue;;
+    color: white;
+    text-align: center;
+  }
+  @media (max-width: 400px) {
+   #survey-form {
+   display: flex;
+   flex-direction: column;
+   }
+   form > label {
+   margin-top: 20px;
+   margin-bottom: 10px;
+   text-align: center;
+   
+   
+   }
+   div > label {margin-top: 0px;}
+   [target] { margin-top: 35px; align: center;}
+   [type=submit] {margin-top: 35px;}
+   
+   }
+  
